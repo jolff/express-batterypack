@@ -1,0 +1,5 @@
+Base setup: NPM, TypeScript
+
+- Created tsconfig.json
+- Created .npmrc to use the standard npm registry
+- Installed nodemon, typescript, ts-node and set up the "npm run dev" script
