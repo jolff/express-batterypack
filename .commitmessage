@@ -1,5 +1,5 @@
-Base setup: NPM, TypeScript
+Impelement types for canonical result objects
 
-- Created tsconfig.json
-- Created .npmrc to use the standard npm registry
-- Installed nodemon, typescript, ts-node and set up the "npm run dev" script
+- src/types/result.ts: Types for (sync. or async.) results and results of a API call
+- Create and configure .npmrc.json
+- Create (empty) README.md
