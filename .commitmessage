@@ -1,5 +1,2 @@
-Impelement types for canonical result objects
+Logging, Tests
 
-- src/types/result.ts: Types for (sync. or async.) results and results of a API call
-- Create and configure .npmrc.json
-- Create (empty) README.md

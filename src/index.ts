@@ -1,6 +1,3 @@
-import expressDefault from "express"
-import { Request, Response, NextFunction, Router } from "express"
-
 /*
 middleware
     auth
@@ -14,7 +11,11 @@ responding
     respondWithSuccess
 env-checker
 api-request-result
+create-app
 */
+import dotenv from "dotenv"
+dotenv.config()
 
-export { Request, Response, NextFunction, Router }
-export default expressDefault
+import { createAppAndListen } from "./create-app"
+
+export default createAppAndListen
