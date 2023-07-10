@@ -1,21 +1,12 @@
-/*
-middleware
-    auth
-        jwt
-        basic
-    validation
-        zod
-responding
-    respond
-    respondWithError
-    respondWithSuccess
-env-checker
-api-request-result
-create-app
-*/
 import dotenv from "dotenv"
 dotenv.config()
 
-import { createAppAndListen } from "./create-app"
+export * as CanonicalResult from "./canonical-result"
 
-export default createAppAndListen
+export * as createApp from "./create-app"
+
+export * as env from "./env"
+
+export * as response from "./response"
+
+export { default as middleware } from "./middleware"

@@ -1,19 +1,22 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+
     "module": "CommonJS",
     "lib": ["es2021"],
     "target": "es2021",
+
     "esModuleInterop": true,
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": false,
-    "declaration": true,
-    "outDir": "dist",
     "baseUrl": ".",
     "strict": true,
     "paths": {
       "*": ["node_modules/*"]
     }
   },
-  "include": ["src/index.ts"]
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules", "dist"]
 }
