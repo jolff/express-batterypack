@@ -5,10 +5,15 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha --require ts-node/register tests/mocha/*.ts",
+    "test": "mocha --require ts-node/register tests/mocha/**/*.ts",
     "dev": "NODE_ENV=development nodemon src/index.ts",
     "prepublish": "npm run test && tsc"
   },
+  "keywords": [
+    "express",
+    "microservice",
+    "utility"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jolff/express-batterypack.git"

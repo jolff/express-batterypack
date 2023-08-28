@@ -1,21 +1,5 @@
-Middlewares, response, tests, README.md
+Implement middlewares
 
-# DONE
-
-- middleware:
-  - zod-validation: Implement middleware validateBody
-  - pre-controller: Implement middleware requireContentType
-- response: Implement response functions
-- tests: Start implementing tests for env. Finished tests for create-app
-- README.md: Start editing
-
-# TODOS
-
-- Implement logic
-  - env#crucialCheck
-- Implement tests
-  - env#crucialCheck
-  - response
-  - zod-validation
-  - pro-controller
-  - \_internal.object#extendDefaultObject
+- Implement middlewares for content type
+- Implement tests for middleware
+- package.json: Add keywords, change script for tests

@@ -49,7 +49,7 @@ describe("env", () => {
     it("should return default value if env is not set", () => {
       assert.strictEqual(env.getStringFromEnv("EBP_TEST_STRING_UNSET", "ebp"), "ebp")
     })
-    it("should return right valur if env is set", () => {
+    it("should return right value if env is set", () => {
       assert.strictEqual(env.getStringFromEnv("EBP_TEST_STRING"), "ebp")
       assert.strictEqual(env.getStringFromEnv("EBP_TEST_STRING", "foo"), "ebp")
     })
